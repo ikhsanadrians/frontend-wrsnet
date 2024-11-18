@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary;
+}
+
+@font-face {
+  font-family: "NmRegular";
+  src: url("./assets/fonts/NmRegular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NmBold";
+  src: url("./assets/fonts/NmBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NmLight";
+  src: url("./assets/fonts/NmLight.otf") format("openType");
+}
+
+@font-face {
+  font-family: "NmMedium";
+  src: url("./assets/fonts/NmMedium.otf") format("openType");
+}
+
+.title {
+  @apply font-['NmBold'];
+}
+
+.header-medium {
+  @apply font-['NmMedium'] tracking-wide;
+}
