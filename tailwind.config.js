@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         primary: '#f4f4f6',
-        secondary: '#a8ff00',
+        secondary: '#e42a2f',
         third: '#7b87ff'
       },
       dropShadow: {

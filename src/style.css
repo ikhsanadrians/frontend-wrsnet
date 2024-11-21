@@ -33,3 +33,7 @@ body {
 .header-medium {
   @apply font-['NmMedium'] tracking-wide;
 }
+
+.header-regular {
+  @apply font-['NmRegular'] tracking-wide;
+}
