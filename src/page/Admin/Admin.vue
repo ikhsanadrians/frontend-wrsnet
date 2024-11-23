@@ -5,29 +5,31 @@
         </div>
     </div>
     <div class="container flex h-full">
-        <div class="sidebar ml-4 bg-white mt-4 p-4 w-full h-screen max-w-[14rem] rounded-md shadow-sm sticky top-16">
+        <div
+            class="sidebar ml-4 bg-white mt-4 py-4 px-2 w-full h-screen max-w-[14rem] rounded-md shadow-sm sticky top-16">
             <div class="menu flex flex-col gap-y-4 text-gray-700">
-                <div class="home cursor-pointer flex items-center gap-x-2 p-2 hover:bg-gray-200 rounded-lg">
+                <div class="home cursor-pointer flex items-center gap-x-2 py-2 px-3 hover:bg-gray-200 rounded-lg">
                     <font-awesome-icon :icon="['fas', 'house']" />
                     <p class="text-regular font-semibold">Home</p>
                 </div>
-                <div class="statistic cursor-pointer flex items-center gap-x-2 p-2 hover:bg-gray-200 rounded-lg">
+                <div class="statistic cursor-pointer flex items-center gap-x-2 py-2 px-3 hover:bg-gray-200 rounded-lg">
                     <font-awesome-icon :icon="['fas', 'chart-simple']" />
                     <p class="text-regular font-semibold">Statistik Pengunjung</p>
                 </div>
-                <div class="blog cursor-pointer flex items-center gap-x-2 p-2 hover:bg-gray-200 rounded-lg">
+                <div class="blog cursor-pointer flex items-center gap-x-2 py-2 px-3 hover:bg-gray-200 rounded-lg">
                     <font-awesome-icon :icon="['fas', 'newspaper']" />
                     <p class="text-regular font-semibold">Blog</p>
                 </div>
-                <div class="slider cursor-pointer flex items-center gap-x-2 p-2 hover:bg-gray-200 rounded-lg">
+                <div class="slider cursor-pointer flex items-center gap-x-2 py-2 px-3 hover:bg-gray-200 rounded-lg">
                     <font-awesome-icon :icon="['fas', 'sliders']" />
                     <p class="text-regular font-semibold">Setting Slider</p>
                 </div>
-                <div class="form-daftar cursor-pointer flex items-center gap-x-2 p-2 hover:bg-gray-200 rounded-lg">
+                <div
+                    class="form-daftar cursor-pointer flex items-center gap-x-2 py-2 px-3 hover:bg-gray-200 rounded-lg">
                     <font-awesome-icon :icon="['fas', 'paper-plane']" />
                     <p class="text-regular font-semibold">Form Pendaftaran</p>
                 </div>
-                <div class="profil cursor-pointer flex items-center gap-x-2 p-2 hover:bg-gray-200 rounded-lg">
+                <div class="profil cursor-pointer flex items-center gap-x-2 py-2 px-3 hover:bg-gray-200 rounded-lg">
                     <font-awesome-icon :icon="['fas', 'user']" />
                     <p class="text-regular font-semibold">Profile</p>
                 </div>
