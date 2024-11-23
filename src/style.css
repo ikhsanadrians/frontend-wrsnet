@@ -37,3 +37,17 @@ body {
 .header-regular {
   @apply font-['NmRegular'] tracking-wide;
 }
+
+.speed {
+  z-index: 99;
+  background-repeat: no-repeat;
+  background-image: url("../src/assets/images/shape2.png");
+}
+
+.gradient {
+  @apply bg-gradient-to-r from-purple-800 from-5% via-red-500  to-secondary to-95% bg-clip-text text-transparent;
+}
+
+.text-regular {
+  font-size: 14px;
+}
